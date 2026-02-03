@@ -29,7 +29,7 @@ CREATE TABLE bronze.crm_prd_info (
     prd_id INT,
     prd_key TEXT,
     prd_nm TEXT,
-    prd_cost TEXT,
+    prd_cost NUMERIC,
     prd_line TEXT,
     prd_start_dt DATE,
     prd_end_dt DATE
@@ -43,9 +43,9 @@ CREATE TABLE bronze.crm_sales_detail (
     sls_order_dt TEXT,
     sls_ship_dt TEXT,
     sls_due_dt TEXT,
-    sls_sales TEXT,
+    sls_sales NUMERIC,
     sls_quantity INT,
-    sls_price TEXT
+    sls_price NUMERIC
 );
 
 DROP TABLE IF EXISTS bronze.erp_cust_az12;
