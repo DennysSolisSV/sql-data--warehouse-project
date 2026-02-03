@@ -41,8 +41,8 @@ CREATE TABLE bronze.crm_sales_detail (
     sls_prd_key TEXT,
     sls_cust_id  INT,
     sls_order_dt TEXT,
-    sls_ship_dt TEXT,
-    sls_due_dt TEXT,
+    sls_ship_dt INTEGER,
+    sls_due_dt INTEGER,
     sls_sales NUMERIC,
     sls_quantity INT,
     sls_price NUMERIC
